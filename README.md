@@ -7,6 +7,11 @@ You Can run it in android,windows,linux
 
 #Termux
 
+apt update && apt upgrade
+
+pkg install git 
+apt install python
+
 git clone https://github.com/krisshkumar/admin_panel_finder
 
 cd admin_panel_finder
