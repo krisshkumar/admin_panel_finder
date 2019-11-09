@@ -1,0 +1,62 @@
+2019-11-9 14: 11: 33
+http://radmandemo.dmasoftlab.com/admin/
+http://radmandemo.dmasoftlab.com/admin/account.php
+http://radmandemo.dmasoftlab.com/admin/account.html
+http://radmandemo.dmasoftlab.com/admin/index.php
+http://radmandemo.dmasoftlab.com/admin/index.html
+http://radmandemo.dmasoftlab.com/admin/login.php
+http://radmandemo.dmasoftlab.com/admin/login.html
+http://radmandemo.dmasoftlab.com/admin/home.php
+http://radmandemo.dmasoftlab.com/admin/controlpanel.html
+http://radmandemo.dmasoftlab.com/admin/controlpanel.php
+http://radmandemo.dmasoftlab.com/admin.php
+http://radmandemo.dmasoftlab.com/admin/cp.php
+http://radmandemo.dmasoftlab.com/admin/cp.html
+http://radmandemo.dmasoftlab.com/admin/account.asp
+http://radmandemo.dmasoftlab.com/admin/index.asp
+http://radmandemo.dmasoftlab.com/admin/login.asp
+http://radmandemo.dmasoftlab.com/admin/home.asp
+http://radmandemo.dmasoftlab.com/admin/controlpanel.asp
+http://radmandemo.dmasoftlab.com/admin/cp.asp
+http://radmandemo.dmasoftlab.com/admin
+http://radmandemo.dmasoftlab.com/admin.php
+total progress: 0
+______________________________________________
+2019-11-9 14: 20: 52
+http://radmandemo.dmasoftlab.com/admin/
+http://radmandemo.dmasoftlab.com/admin/account.php
+http://radmandemo.dmasoftlab.com/admin/account.html
+http://radmandemo.dmasoftlab.com/admin/index.php
+http://radmandemo.dmasoftlab.com/admin/index.html
+http://radmandemo.dmasoftlab.com/admin/login.php
+http://radmandemo.dmasoftlab.com/admin/login.html
+http://radmandemo.dmasoftlab.com/admin/home.php
+http://radmandemo.dmasoftlab.com/admin/controlpanel.html
+http://radmandemo.dmasoftlab.com/admin/controlpanel.php
+http://radmandemo.dmasoftlab.com/admin.php
+http://radmandemo.dmasoftlab.com/admin/cp.php
+http://radmandemo.dmasoftlab.com/admin/cp.html
+total progress: 0
+______________________________________________
+2019-11-9 16: 2: 25
+http://radmandemo.dmasoftlab.com/admin/
+http://radmandemo.dmasoftlab.com/admin/account.php
+http://radmandemo.dmasoftlab.com/admin/account.html
+http://radmandemo.dmasoftlab.com/admin/index.php
+http://radmandemo.dmasoftlab.com/admin/index.html
+http://radmandemo.dmasoftlab.com/admin/login.php
+http://radmandemo.dmasoftlab.com/admin/login.html
+http://radmandemo.dmasoftlab.com/admin/home.php
+http://radmandemo.dmasoftlab.com/admin/controlpanel.html
+http://radmandemo.dmasoftlab.com/admin/controlpanel.php
+http://radmandemo.dmasoftlab.com/admin.php
+http://radmandemo.dmasoftlab.com/admin/cp.php
+http://radmandemo.dmasoftlab.com/admin/cp.html
+http://radmandemo.dmasoftlab.com/admin/account.asp
+http://radmandemo.dmasoftlab.com/admin/index.asp
+http://radmandemo.dmasoftlab.com/admin/login.asp
+http://radmandemo.dmasoftlab.com/admin/home.asp
+http://radmandemo.dmasoftlab.com/admin/controlpanel.asp
+http://radmandemo.dmasoftlab.com/admin/cp.asp
+total progress: 0
+______________________________________________
