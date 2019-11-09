@@ -6,16 +6,15 @@ try:#python 3
     import urllib.request as req
     from urllib.error import URLError, HTTPError
     three = True
-except ImportError:#python 2
+except ImportError:
     import urllib2 as req
     three = False
 
-#custom header to avoid being blocked by the website
 custom_headers = {"User-Agent" : "Mozilla/5.0 (Windows NT {}; rv:{}.0) Gecko/20100101 Firefox/{}.0".format(random.randint(7,11),
                                                                                                            random.randint(40,50),
                                                                                                            random.randint(35,50))}
 
-def adjustDomainName(domain):#correct domain name for urllib
+def adjustDomainName(domain):
     if domain.startswith("www."):
         domain = domain[4:]
     if not domain.startswith("http"):
@@ -24,7 +23,7 @@ def adjustDomainName(domain):#correct domain name for urllib
         domain = domain[:-1]
     return domain
 
-def loadWordList(wordlist_file, ext):#load pages to check from dictionary
+def loadWordList(wordlist_file, ext):
     try:
         with open(wordlist_file, encoding="utf8") as wlf:
             content = wlf.readlines()
@@ -49,8 +48,8 @@ def saveResults(file_name, found_pages, progress=0):
 def main(domain, progress=0, ext="a", strict=False, save=True, visible=True, wordlist_file="admin.txt"):
     print("working... press ctrl+c at any point to abort...")
     resp_codes = {403 : "request forbidden", 401 : "authentication required"}#HTTP response codes
-    found = []#list to hold the results we find
-    domain = adjustDomainName(domain)#correct domain name for urllib
+    found = []
+    domain = adjustDomainName(domain)
 
     print("loading wordlist...")
     attempts = loadWordList(wordlist_file, ext)
@@ -66,11 +65,11 @@ def main(domain, progress=0, ext="a", strict=False, save=True, visible=True, wor
             panel_page = req.Request(site, headers=custom_headers)
             
             try:
-                resp = req.urlopen(site)#try visiting the page
+                resp = req.urlopen(site)
                 found.append(site)
                 print("\033[1;32;40m %s Valid link" % site)
 
-            except HTTPError as e:#investigate the HTTPError we got
+            except HTTPError as e:
                 if three:
                     c = e.getcode()
                 else:
@@ -85,15 +84,15 @@ def main(domain, progress=0, ext="a", strict=False, save=True, visible=True, wor
                         found.append(site)
 
             except URLError:
-                print("invalid link or no internet connection!")
+                print("invalid link or no internet!")
                 break
             
             except Exception as e2:
-                print("an exception occured when testing {}... {}".format(site, e2))
+                print("an error occured when testing {}... {}".format(site, e2))
                 continue
             progress += 1
             
-        except KeyboardInterrupt:#make sure we don't lose everything should the user get bored
+        except KeyboardInterrupt:
             print()
             break
 
